@@ -9,6 +9,9 @@ ABaseTower::ABaseTower()
 
 	PrimaryActorTick.bCanEverTick = true;
 
+	TowerMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("TowerMesh"));
+	RootComponent = TowerMesh;
+
 	AttackRange = 1000.f;
 	AttackCooldown = 1.f;
 	MaxUpgradeLevel = 3;

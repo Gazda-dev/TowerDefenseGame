@@ -9,7 +9,9 @@
             "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegame\\source\\towerdefensegame\\public\\tower\\simpletower.h",
             "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegame\\source\\towerdefensegame\\public\\tower\\basetower.h",
             "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegame\\intermediate\\build\\win64\\unrealeditor\\inc\\towerdefensegame\\uht\\basetower.generated.h",
-            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegame\\intermediate\\build\\win64\\unrealeditor\\inc\\towerdefensegame\\uht\\simpletower.generated.h"
+            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegame\\intermediate\\build\\win64\\unrealeditor\\inc\\towerdefensegame\\uht\\simpletower.generated.h",
+            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegame\\source\\towerdefensegame\\public\\tower\\towerprojectile.h",
+            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegame\\intermediate\\build\\win64\\unrealeditor\\inc\\towerdefensegame\\uht\\towerprojectile.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

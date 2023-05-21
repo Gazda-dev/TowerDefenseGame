@@ -22,7 +22,7 @@ public:
 	void SetTowerPlacement(ATowerPlacementLocation* PlacementLocation);
 
 	UFUNCTION(BlueprintCallable, Category = "Tower #cpp")
-	void Attack();
+	virtual void Attack();
 
 	UFUNCTION(BlueprintCallable, Category = "Tower #cpp")
 	void UpgradeTower();
@@ -39,6 +39,9 @@ protected:
 
 	UPROPERTY(EditAnywhere, Category = "Tower #cpp")
 	float TowerHealth;
+
+	UPROPERTY(EditAnywhere, Category = "Tower #cpp")
+	UStaticMeshComponent* TowerMesh;
 
 	UPROPERTY(EditAnywhere, Category = "Tower #cpp")
 	TSubclassOf<class ATowerProjectile> ProjectileClass;

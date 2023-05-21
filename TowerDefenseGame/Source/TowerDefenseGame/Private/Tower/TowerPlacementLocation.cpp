@@ -1,7 +1,7 @@
 
 #include "Tower/TowerPlacementLocation.h"
 #include "Tower/BaseTower.h"
-
+#include "Tower/SimpleTower.h"
 
 ATowerPlacementLocation::ATowerPlacementLocation()
 {
@@ -35,8 +35,8 @@ void ATowerPlacementLocation::OnPlacementClicked()
 	{
 		//handle tower selection to choose a tower
 		//for now player is choosing asimpletower
-		//TSubclassOf<ASimpleTower> TowerClass = ASimpleTower::StaticClass();
-		//SpawnTower(TowerClass);
+		TSubclassOf<ASimpleTower> TowerClass = ASimpleTower::StaticClass();
+		SpawnTower(TowerClass);
 	}
 	else
 	{

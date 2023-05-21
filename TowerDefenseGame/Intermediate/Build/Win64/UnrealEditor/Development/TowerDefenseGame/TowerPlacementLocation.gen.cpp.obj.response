@@ -273,6 +273,9 @@
 /I "D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Intermediate\Build\Win64\UnrealEditor\Inc\TowerDefenseGame\UHT"
 /I "D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Source"
 /I "D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Source\TowerDefenseGame\Public"
+/I ..\Plugins\EnhancedInput\Intermediate\Build\Win64\UnrealEditor\Inc\EnhancedInput\UHT
+/I ..\Plugins\EnhancedInput\Source
+/I ..\Plugins\EnhancedInput\Source\EnhancedInput\Public
 /external:W0
 /external:I ThirdParty\mimalloc\include
 /external:I ThirdParty\LibTiff\Source\Win64
