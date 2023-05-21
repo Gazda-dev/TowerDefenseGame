@@ -1154,3 +1154,94 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.05.21-18.53.56:508][  0]LogContentStreaming: Texture pool size now 600 MB
 [2023.05.21-18.53.56:547][  0]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
 [2023.05.21-18.53.57:100][  3]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.05.21-18.57.31:014][927]LogDerivedDataCache: C:/Users/karim/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:01:45.264 and deleted 0 files with total size 0 MiB. Scanned 56583 files in 50048 folders with total size 7961 MiB.
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: ================================================
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: Total job queries 110, among them cache hits 12 (10.91%)
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: Tracking 97 distinct input hashes that result in 81 distinct outputs (83.51%)
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: RAM used: 0.85 MB (0.00 GB) of 1228.80 MB (1.20 GB) budget. Usage: 0.07%
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: Shaders Compiled: 97
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: Jobs assigned 98, completed 97 (98.98%)
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: Average time worker was idle: 17.93 s
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: Time job spent in pending queue: average 1.73 s, longest 10.83 s
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: Job execution time: average 5.33 s, max 13.11 s
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: Job life time (pending + execution): average 7.08 s, max 13.16
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 20.97 s
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: Jobs were issued in 58 batches (only local compilation was used), average 1.69 jobs/batch
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: Average processing rate: 4.63 jobs/sec
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: Total thread time: 125.44 s
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: Total thread preprocess time: 5.46 s
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: Percentage time preprocessing: 4.36%
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: Effective parallelization: 5.98 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display:                                   FCloudRenderViewPS011false (compiled    1 times, average 2.75 sec, max 2.75 sec, min 2.75 sec)
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display:                                   FCloudRenderViewPS111false (compiled    1 times, average 2.39 sec, max 2.39 sec, min 2.39 sec)
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display:                                   FCloudRenderViewPS110false (compiled    1 times, average 2.25 sec, max 2.25 sec, min 2.25 sec)
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display:                                   FCloudRenderViewPS010false (compiled    1 times, average 1.95 sec, max 1.95 sec, min 1.95 sec)
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS (compiled   17 times, average 1.92 sec, max 2.71 sec, min 1.44 sec)
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display:                           FRenderVolumetricCloudRenderViewCS - 26.05% of total time (compiled   17 times, average 1.92 sec, max 2.71 sec, min 1.44 sec)
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 11.04% of total time (compiled   10 times, average 1.38 sec, max 1.66 sec, min 1.29 sec)
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.04% of total time (compiled   10 times, average 1.26 sec, max 1.65 sec, min 0.97 sec)
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display:                                                 FLumenCardVS - 7.19% of total time (compiled    8 times, average 1.13 sec, max 1.48 sec, min 0.97 sec)
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display:                                          FLumenCardPS<false> - 4.38% of total time (compiled    8 times, average 0.69 sec, max 0.89 sec, min 0.58 sec)
+[2023.05.21-19.01.23:045][672]LogShaderCompilers: Display: ================================================
+[2023.05.21-19.01.43:513][743]LogSlate: Window 'New Level' being destroyed
+[2023.05.21-19.01.43:519][743]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.21-19.01.43:519][743]LightingResults: New page: Lighting Build
+[2023.05.21-19.01.43:519][743]LoadErrors: New page: Loading map: Template_Default.umap
+[2023.05.21-19.01.43:560][743]LogWorld: UWorld::CleanupWorld for Untitled_1, bSessionEnded=true, bCleanupResources=true
+[2023.05.21-19.01.43:561][743]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.21-19.01.43:562][743]LogContentBundle: [Container: Untitled_1] Deleting container.
+[2023.05.21-19.01.43:562][743]MapCheck: New page: Map Check
+[2023.05.21-19.01.43:562][743]LightingResults: New page: Lighting Build
+[2023.05.21-19.01.43:570][743]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.21-19.01.43:584][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2023.05.21-19.01.43:587][743]LogLinker: Warning: [AssetLog] D:\Gry\fortnite\unreal\UE_5.1\Engine\Content\Maps\Templates\Template_Default.umap: Failed to load '/Game/Blueprints/Items/BP_Item': Can't find file.
+[2023.05.21-19.01.43:587][743]LogLinker: Warning: [AssetLog] D:\Gry\fortnite\unreal\UE_5.1\Engine\Content\Maps\Templates\Template_Default.umap: VerifyImport: Failed to load package for import object 'Package /Game/Blueprints/Items/BP_Item'
+[2023.05.21-19.01.43:593][743]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled_2'.
+[2023.05.21-19.01.43:594][743]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.21-19.01.43:594][743]LogAIModule: Creating AISystem for world Untitled_2
+[2023.05.21-19.01.43:660][743]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.21-19.01.43:667][743]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.05.21-19.01.43:667][743]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.21-19.01.43:667][743]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,124ms to complete.
+[2023.05.21-19.01.43:667][743]LogFileHelpers: Loading map 'Template_Default' took 0.149
+[2023.05.21-19.01.43:672][743]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'DefaultSceneRoot': BP_Item_C /Temp/Untitled_2.Template_Default:PersistentLevel.BP_Item_C_1
+[2023.05.21-19.01.48:383][902]LogSlate: Window 'Save Level As' being destroyed
+[2023.05.21-19.01.54:563][471]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2023.05.21-19.01.54:604][471]LogContentBrowser: Creating deferred item: NewFolder
+[2023.05.21-19.01.54:610][471]LogSlate: Took 0.004121 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.05.21-19.01.54:633][473]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2023.05.21-19.01.56:223][627]LogContentBrowser: Attempting asset rename: NewFolder -> Maps
+[2023.05.21-19.01.56:224][627]LogContentBrowser: End creating deferred item NewFolder
+[2023.05.21-19.02.03:145][316]LogSlate: Window 'Color Picker' being destroyed
+[2023.05.21-19.02.16:977][838]LogSlate: Window 'Save Level As' being destroyed
+[2023.05.21-19.02.17:017][838]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/MainLevel1" FILE="../../../../Unreal Projects/TowerDefenseGame/TowerDefenseGame/Content/Maps/MainLevel1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2023.05.21-19.02.17:025][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2023.05.21-19.02.17:031][838]LogPackageLocalizationCache: Processed 43 localized package path(s) for 1 prioritized culture(s) in 0.004619 seconds
+[2023.05.21-19.02.17:035][838]LogSerialization: UsePackageTrailer: 'true'
+[2023.05.21-19.02.17:040][838]LogSavePackage: Moving output files for package: /Game/Maps/MainLevel1
+[2023.05.21-19.02.17:040][838]LogSavePackage: Moving '../../../../Unreal Projects/TowerDefenseGame/TowerDefenseGame/Saved/MainLevel11A4213A04C0A34AF5B4B778F8D69D050.tmp' to '../../../../Unreal Projects/TowerDefenseGame/TowerDefenseGame/Content/Maps/MainLevel1.umap'
+[2023.05.21-19.02.17:059][838]LogFileHelpers: Saving map 'MainLevel1' took 0.073
+[2023.05.21-19.02.17:059][838]Cmd: MAP LOAD FILE="../../../../Unreal Projects/TowerDefenseGame/TowerDefenseGame/Content/Maps/MainLevel1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=4
+[2023.05.21-19.02.17:059][838]LightingResults: New page: Lighting Build
+[2023.05.21-19.02.17:059][838]LoadErrors: New page: Loading map: MainLevel1.umap
+[2023.05.21-19.02.17:084][838]LogWorld: UWorld::CleanupWorld for MainLevel1, bSessionEnded=true, bCleanupResources=true
+[2023.05.21-19.02.17:084][838]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.05.21-19.02.17:084][838]MapCheck: New page: Map Check
+[2023.05.21-19.02.17:084][838]LightingResults: New page: Lighting Build
+[2023.05.21-19.02.17:091][838]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.05.21-19.02.17:092][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.05.21-19.02.17:095][838]LogAudio: Display: Audio Device (ID: 1) registered with world 'MainLevel1'.
+[2023.05.21-19.02.17:096][838]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.05.21-19.02.17:096][838]LogAIModule: Creating AISystem for world MainLevel1
+[2023.05.21-19.02.17:133][838]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.05.21-19.02.17:141][838]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.05.21-19.02.17:152][838]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.05.21-19.02.17:152][838]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,088ms to complete.
+[2023.05.21-19.02.17:152][838]LogFileHelpers: Loading map 'MainLevel1' took 0.093
+[2023.05.21-19.02.17:155][838]AssetCheck: New page: Asset Save: MainLevel1
+[2023.05.21-19.02.17:155][838]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/MainLevel1.MainLevel1
+[2023.05.21-19.02.18:711][970]LogUObjectHash: Compacting FUObjectHashTables data took   0.34ms
