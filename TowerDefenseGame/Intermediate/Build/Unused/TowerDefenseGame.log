@@ -1,25 +1,5 @@
 ﻿  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" TowerDefenseGameEditor Win64 Development -Project="D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\TowerDefenseGame.uproject" -WaitMutex -FromMsBuild
   Log file: C:\Users\karim\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame).
-  Invalidating makefile for TowerDefenseGameEditor (working set of source files changed)
-  Parsing headers for TowerDefenseGameEditor
-    Running Internal UnrealHeaderTool "D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\TowerDefenseGame.uproject" "D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Intermediate\Build\Win64\TowerDefenseGameEditor\Development\TowerDefenseGameEditor.uhtmanifest" -WarningsAsErrors -installed
-  Total of 1 written
-  Reflection code generated for TowerDefenseGameEditor in 1.0567916 seconds
-  Building TowerDefenseGameEditor...
-  Using Visual Studio 2022 14.33.31631 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  [Adaptive Build] Excluded from TowerDefenseGame unity file: BaseTower.cpp, TowerPlacementLocation.cpp, TowerProjectile.cpp
-  Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
-    Executing up to 6 processes, one per physical core
-  Building 7 actions with 6 processes...
-  [1/7] Compile TowerPlacementLocation.cpp
-  [2/7] Compile TowerProjectile.cpp
-  [3/7] Compile TowerProjectile.gen.cpp
-  [4/7] Compile TowerPlacementLocation.gen.cpp
-  [5/7] Link UnrealEditor-TowerDefenseGame.lib
-     Creating library D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGame\UnrealEditor-TowerDefenseGame.lib and object D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGame\UnrealEditor-TowerDefenseGame.exp
-  [6/7] Link UnrealEditor-TowerDefenseGame.dll
-     Creating library D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGame\UnrealEditor-TowerDefenseGame.suppressed.lib and object D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGame\UnrealEditor-TowerDefenseGame.suppressed.exp
-  [7/7] WriteMetadata TowerDefenseGameEditor.target
-  Total time in Parallel executor: 1.78 seconds
-  Total execution time: 4.47 seconds
+  Target is up to date
+  Total execution time: 0.53 seconds

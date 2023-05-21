@@ -66,6 +66,9 @@
     <ClCompile Include="..\..\Source\TowerDefenseGame\Private\Tower\BaseTower.cpp">
       <Filter>Source\TowerDefenseGame\Private\Tower</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\TowerDefenseGame\Private\Tower\SimpleTower.cpp">
+      <Filter>Source\TowerDefenseGame\Private\Tower</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\TowerDefenseGame\Private\Tower\TowerPlacementLocation.cpp">
       <Filter>Source\TowerDefenseGame\Private\Tower</Filter>
     </ClCompile>
@@ -79,6 +82,9 @@
       <UniqueIdentifier>{7A11BCE7-D8A9-321C-A3A5-6FDE72714AB1}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\TowerDefenseGame\Public\Tower\BaseTower.h">
+      <Filter>Source\TowerDefenseGame\Public\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TowerDefenseGame\Public\Tower\SimpleTower.h">
       <Filter>Source\TowerDefenseGame\Public\Tower</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\TowerDefenseGame\Public\Tower\TowerPlacementLocation.h">
