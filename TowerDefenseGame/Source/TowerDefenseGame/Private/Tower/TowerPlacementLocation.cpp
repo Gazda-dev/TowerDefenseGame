@@ -37,6 +37,7 @@ void ATowerPlacementLocation::OnPlacementClicked()
 		//for now player is choosing asimpletower
 		TSubclassOf<ASimpleTower> TowerClass = ASimpleTower::StaticClass();
 		SpawnTower(TowerClass);
+		UE_LOG(LogTemp, Warning, TEXT("Tower spawned"));
 	}
 	else
 	{

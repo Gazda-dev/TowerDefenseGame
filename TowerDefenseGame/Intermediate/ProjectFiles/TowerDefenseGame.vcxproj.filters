@@ -66,6 +66,9 @@
     <ClCompile Include="..\..\Source\TowerDefenseGame\Private\Player\MyPlayerController.cpp">
       <Filter>Source\TowerDefenseGame\Private\Player</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\TowerDefenseGame\Private\Player\PlayerCameraPawn.cpp">
+      <Filter>Source\TowerDefenseGame\Private\Player</Filter>
+    </ClCompile>
     <Filter Include="Source\TowerDefenseGame\Private\Tower">
       <UniqueIdentifier>{9C6E7A0E-4B47-3830-9BA9-C7C5AF6C660B}</UniqueIdentifier>
     </Filter>
@@ -88,6 +91,9 @@
       <UniqueIdentifier>{2E22EC91-6081-3C35-9355-BFF18E157B31}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\TowerDefenseGame\Public\Player\MyPlayerController.h">
+      <Filter>Source\TowerDefenseGame\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\TowerDefenseGame\Public\Player\PlayerCameraPawn.h">
       <Filter>Source\TowerDefenseGame\Public\Player</Filter>
     </ClInclude>
     <Filter Include="Source\TowerDefenseGame\Public\Tower">

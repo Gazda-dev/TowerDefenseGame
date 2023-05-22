@@ -17,13 +17,13 @@ void EmptyLinkFunctionForGeneratedCodeTowerDefenseGame_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x60B8F6C0,
-				0xB3C7288F,
+				0x84C0DC3C,
+				0x3CB4B1E8,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_TowerDefenseGame.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_TowerDefenseGame.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_TowerDefenseGame(Z_Construct_UPackage__Script_TowerDefenseGame, TEXT("/Script/TowerDefenseGame"), Z_Registration_Info_UPackage__Script_TowerDefenseGame, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x60B8F6C0, 0xB3C7288F));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_TowerDefenseGame(Z_Construct_UPackage__Script_TowerDefenseGame, TEXT("/Script/TowerDefenseGame"), Z_Registration_Info_UPackage__Script_TowerDefenseGame, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x84C0DC3C, 0x3CB4B1E8));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

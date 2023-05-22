@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegame\\intermediate\\build\\win64\\unrealeditor\\inc\\towerdefensegame\\uht\\towerdefensegame.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegame\\intermediate\\build\\win64\\towerdefensegameeditor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegame\\intermediate\\build\\win64\\unrealeditor\\development\\towerdefensegame\\definitions.towerdefensegame.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
