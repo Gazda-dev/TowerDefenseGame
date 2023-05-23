@@ -1,25 +1,5 @@
 ﻿  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" TowerDefenseGameV2Editor Win64 Development -Project="D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\TowerDefenseGameV2.uproject" -WaitMutex -FromMsBuild
   Log file: C:\Users\karim\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame).
-  Invalidating makefile for TowerDefenseGameV2Editor (working set of source files changed)
-  Parsing headers for TowerDefenseGameV2Editor
-    Running Internal UnrealHeaderTool "D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\TowerDefenseGameV2.uproject" "D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\TowerDefenseGameV2Editor\Development\TowerDefenseGameV2Editor.uhtmanifest" -WarningsAsErrors -installed
-  Total of 1 written
-  Reflection code generated for TowerDefenseGameV2Editor in 1.1458314 seconds
-  Building TowerDefenseGameV2Editor...
-  Using Visual Studio 2022 14.33.31631 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  [Adaptive Build] Excluded from TowerDefenseGameV2 unity file: PlayerCameraPawn.cpp, TDG_GameModeBase.cpp
-  Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
-    Executing up to 6 processes, one per physical core
-    Requested 1.5 GB free memory per action, 7.42 GB available: limiting max parallel actions to 4
-  Building 6 actions with 4 processes...
-  [1/6] Compile PlayerCameraPawn.gen.cpp
-  [2/6] Compile TDG_GameModeBase.cpp
-  [3/6] Compile PlayerCameraPawn.cpp
-  [4/6] Link UnrealEditor-TowerDefenseGameV2.lib
-     Creating library D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGameV2\UnrealEditor-TowerDefenseGameV2.lib and object D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGameV2\UnrealEditor-TowerDefenseGameV2.exp
-  [5/6] Link UnrealEditor-TowerDefenseGameV2.dll
-     Creating library D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGameV2\UnrealEditor-TowerDefenseGameV2.suppressed.lib and object D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGameV2\UnrealEditor-TowerDefenseGameV2.suppressed.exp
-  [6/6] WriteMetadata TowerDefenseGameV2Editor.target
-  Total time in Parallel executor: 3.79 seconds
-  Total execution time: 6.67 seconds
+  Target is up to date
+  Total execution time: 0.55 seconds
