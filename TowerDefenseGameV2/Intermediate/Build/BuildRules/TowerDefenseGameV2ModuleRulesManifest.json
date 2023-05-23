@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\Gry\\fortnite\\unreal\\Unreal Projects\\TowerDefenseGame\\TowerDefenseGameV2\\Source\\TowerDefenseGameV2\\TowerDefenseGameV2.Build.cs",
+		"D:\\Gry\\fortnite\\unreal\\Unreal Projects\\TowerDefenseGame\\TowerDefenseGameV2\\Source\\TowerDefenseGameV2.Target.cs",
+		"D:\\Gry\\fortnite\\unreal\\Unreal Projects\\TowerDefenseGame\\TowerDefenseGameV2\\Source\\TowerDefenseGameV2Editor.Target.cs"
+	],
+	"EngineVersion": "5.1.1"
+}

@@ -1,5 +1,0 @@
-﻿  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" TowerDefenseGameEditor Win64 Development -Project="D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\TowerDefenseGame.uproject" -WaitMutex -FromMsBuild
-  Log file: C:\Users\karim\AppData\Local\UnrealBuildTool\Log.txt
-  Using 'git status' to determine working set for adaptive non-unity build (D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame).
-  Target is up to date
-  Total execution time: 0.65 seconds
