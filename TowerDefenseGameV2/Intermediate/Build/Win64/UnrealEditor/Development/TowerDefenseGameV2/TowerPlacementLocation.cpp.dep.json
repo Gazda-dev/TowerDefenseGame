@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\source\\towerdefensegamev2\\tower\\towerplacementlocation.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\intermediate\\build\\win64\\towerdefensegamev2editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\intermediate\\build\\win64\\unrealeditor\\development\\towerdefensegamev2\\definitions.towerdefensegamev2.h",
+            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\source\\towerdefensegamev2\\tower\\towerplacementlocation.h",
+            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\intermediate\\build\\win64\\unrealeditor\\inc\\towerdefensegamev2\\uht\\towerplacementlocation.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,4 +1,4 @@
-"D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Inc\TowerDefenseGameV2\UHT\TowerDefenseGameV2GameModeBase.gen.cpp"
+"D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Inc\TowerDefenseGameV2\UHT\TowerDefenseGameV2GameModeBase.gen.cpp"
 /I .
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\UHT
 /I Runtime
@@ -269,8 +269,8 @@
 /I Runtime\MovieSceneCapture\Public
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\AnimationDataController\UHT
 /I Developer\AnimationDataController\Public
-/I "D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Inc\TowerDefenseGameV2\UHT"
-/I "D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGameV2\Source"
+/I "D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Inc\TowerDefenseGameV2\UHT"
+/I "D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Source"
 /external:W0
 /external:I ThirdParty\mimalloc\include
 /external:I ThirdParty\LibTiff\Source\Win64
@@ -280,12 +280,12 @@
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/FI"D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGameV2\Intermediate\Build\Win64\TowerDefenseGameV2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/FI"D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGameV2\Definitions.TowerDefenseGameV2.h"
-/Yu"D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGameV2\Intermediate\Build\Win64\TowerDefenseGameV2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGameV2\Intermediate\Build\Win64\TowerDefenseGameV2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-/Fo"D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGameV2\TowerDefenseGameV2GameModeBase.gen.cpp.obj"
-/sourceDependencies "D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGameV2\TowerDefenseGameV2GameModeBase.gen.cpp.dep.json"
+/FI"D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\TowerDefenseGameV2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/FI"D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGameV2\Definitions.TowerDefenseGameV2.h"
+/Yu"D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\TowerDefenseGameV2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\TowerDefenseGameV2Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+/Fo"D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGameV2\TowerDefenseGameV2GameModeBase.gen.cpp.obj"
+/sourceDependencies "D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGameV2\TowerDefenseGameV2GameModeBase.gen.cpp.dep.json"
 /Zc:inline
 /nologo
 /Oi

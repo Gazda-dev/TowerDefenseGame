@@ -1,0 +1,39 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\source\\towerdefensegamev2\\gameplay\\playercamerapawn.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\intermediate\\build\\win64\\towerdefensegamev2editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\intermediate\\build\\win64\\unrealeditor\\development\\towerdefensegamev2\\definitions.towerdefensegamev2.h",
+            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\source\\towerdefensegamev2\\gameplay\\playercamerapawn.h",
+            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\intermediate\\build\\win64\\unrealeditor\\inc\\towerdefensegamev2\\uht\\playercamerapawn.generated.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedinputsubsystems.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedinputsubsysteminterface.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputactionvalue.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputactionvalue.generated.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputmappingquery.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputmappingquery.generated.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedactionkeymapping.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputaction.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputmodifiers.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputmodifiers.generated.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\inputtriggers.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputtriggers.generated.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\inputaction.generated.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedactionkeymapping.generated.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedplayerinput.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedplayerinput.generated.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputsubsysteminterface.generated.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputsubsystems.generated.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\plugins\\enhancedinput\\source\\enhancedinput\\public\\enhancedinputcomponent.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\plugins\\enhancedinput\\intermediate\\build\\win64\\unrealeditor\\inc\\enhancedinput\\uht\\enhancedinputcomponent.generated.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\gameframework\\springarmcomponent.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\springarmcomponent.generated.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\cameracomponent.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

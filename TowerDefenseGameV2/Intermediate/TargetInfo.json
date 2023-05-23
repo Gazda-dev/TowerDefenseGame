@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "TowerDefenseGameV2",
-			"Path": "D:\\Gry\\fortnite\\unreal\\Unreal Projects\\TowerDefenseGameV2\\Source\\TowerDefenseGameV2.Target.cs",
+			"Path": "D:\\Gry\\fortnite\\unreal\\Unreal Projects\\TowerDefenseGame\\TowerDefenseGameV2\\Source\\TowerDefenseGameV2.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "TowerDefenseGameV2Editor",
-			"Path": "D:\\Gry\\fortnite\\unreal\\Unreal Projects\\TowerDefenseGameV2\\Source\\TowerDefenseGameV2Editor.Target.cs",
+			"Path": "D:\\Gry\\fortnite\\unreal\\Unreal Projects\\TowerDefenseGame\\TowerDefenseGameV2\\Source\\TowerDefenseGameV2Editor.Target.cs",
 			"Type": "Editor"
 		}
 	]

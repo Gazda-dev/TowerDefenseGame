@@ -271,6 +271,9 @@
 /I Developer\AnimationDataController\Public
 /I "D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Inc\TowerDefenseGameV2\UHT"
 /I "D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Source"
+/I ..\Plugins\EnhancedInput\Intermediate\Build\Win64\UnrealEditor\Inc\EnhancedInput\UHT
+/I ..\Plugins\EnhancedInput\Source
+/I ..\Plugins\EnhancedInput\Source\EnhancedInput\Public
 /external:W0
 /external:I ThirdParty\mimalloc\include
 /external:I ThirdParty\LibTiff\Source\Win64
