@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeTowerDefenseGameV2_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x97BD7F77,
+				0xC1CCEBD0,
 				0x521F52AD,
 				METADATA_PARAMS(nullptr, 0)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeTowerDefenseGameV2_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_TowerDefenseGameV2.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_TowerDefenseGameV2(Z_Construct_UPackage__Script_TowerDefenseGameV2, TEXT("/Script/TowerDefenseGameV2"), Z_Registration_Info_UPackage__Script_TowerDefenseGameV2, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x97BD7F77, 0x521F52AD));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_TowerDefenseGameV2(Z_Construct_UPackage__Script_TowerDefenseGameV2, TEXT("/Script/TowerDefenseGameV2"), Z_Registration_Info_UPackage__Script_TowerDefenseGameV2, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xC1CCEBD0, 0x521F52AD));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
