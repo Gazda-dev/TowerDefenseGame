@@ -38,7 +38,7 @@ public: \
 
 #define FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGame_Source_TowerDefenseGame_Public_Player_MyPlayerController_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AMyPlayerController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AMyPlayerController(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyPlayerController) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMyPlayerController); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyPlayerController); \
@@ -51,8 +51,6 @@ public: \
 
 
 #define FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGame_Source_TowerDefenseGame_Public_Player_MyPlayerController_h_14_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AMyPlayerController(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMyPlayerController(AMyPlayerController&&); \
@@ -60,7 +58,7 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMyPlayerController); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyPlayerController); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyPlayerController) \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMyPlayerController) \
 	NO_API virtual ~AMyPlayerController();
 
 

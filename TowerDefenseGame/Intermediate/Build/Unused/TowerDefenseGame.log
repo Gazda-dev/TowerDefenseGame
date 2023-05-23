@@ -1,62 +1,17 @@
 ﻿  Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" TowerDefenseGameEditor Win64 Development -Project="D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\TowerDefenseGame.uproject" -WaitMutex -FromMsBuild
   Log file: C:\Users\karim\AppData\Local\UnrealBuildTool\Log.txt
   Using 'git status' to determine working set for adaptive non-unity build (D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame).
-  Invalidating makefile for TowerDefenseGameEditor (working set of source files changed)
-  Parsing headers for TowerDefenseGameEditor
-    Running Internal UnrealHeaderTool "D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\TowerDefenseGame.uproject" "D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Intermediate\Build\Win64\TowerDefenseGameEditor\Development\TowerDefenseGameEditor.uhtmanifest" -WarningsAsErrors -installed
-  Total of 3 written
-  Reflection code generated for TowerDefenseGameEditor in 5.0023016 seconds
-D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Source\TowerDefenseGame\Private\Tower\BaseTower.cpp(1): error : Expected BaseTower.h to be first header included.
   Building TowerDefenseGameEditor...
   Using Visual Studio 2022 14.33.31631 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  [Adaptive Build] Excluded from TowerDefenseGame unity file: MyPlayerController.cpp, PlayerCameraPawn.cpp, TowerPlacementLocation.cpp
+  [Adaptive Build] Excluded from TowerDefenseGame unity file: MyPlayerController.cpp, PlayerCameraPawn.cpp
   Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
     Executing up to 6 processes, one per physical core
-  Building 7 actions with 6 processes...
-  [1/7] Compile PlayerCameraPawn.gen.cpp
-D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Source\TowerDefenseGame\Public\Player\PlayerCameraPawn.h(48): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Source\TowerDefenseGame\Public\Player\PlayerCameraPawn.h(48): error C2143: syntax error: missing ',' before '&'
-  [2/7] Compile TowerDefenseGame.init.gen.cpp
-  [3/7] Compile TowerPlacementLocation.cpp
-  [4/7] Compile PlayerCameraPawn.cpp
-D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Source\TowerDefenseGame\Public\Player\PlayerCameraPawn.h(48): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Source\TowerDefenseGame\Public\Player\PlayerCameraPawn.h(48): error C2143: syntax error: missing ',' before '&'
-D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Source\TowerDefenseGame\Private\Player\PlayerCameraPawn.cpp(54): error C2665: 'UEnhancedInputComponent::BindAction': none of the 4 overloads could convert all the argument types
-  D:\Gry\fortnite\unreal\UE_5.1\Engine\Plugins\EnhancedInput\Source\EnhancedInput\Public\EnhancedInputComponent.h(440): note: could be 'FEnhancedInputActionEventBinding &UEnhancedInputComponent::BindAction(const UInputAction *,ETriggerEvent,UObject *,FName)'
-  D:\Gry\fortnite\unreal\UE_5.1\Engine\Plugins\EnhancedInput\Source\EnhancedInput\Public\EnhancedInputComponent.h(435): note: or       'FEnhancedInputActionEventBinding &UEnhancedInputComponent::BindAction<APlayerCameraPawn,>(const UInputAction *,ETriggerEvent,UserClass *,RetType (__cdecl APlayerCameraPawn::* )(const FInputActionInstance &))'
-          with
-          [
-              UserClass=APlayerCameraPawn,
-              RetType=void
-          ]
-  D:\Gry\fortnite\unreal\UE_5.1\Engine\Plugins\EnhancedInput\Source\EnhancedInput\Public\EnhancedInputComponent.h(434): note: or       'FEnhancedInputActionEventBinding &UEnhancedInputComponent::BindAction<APlayerCameraPawn,>(const UInputAction *,ETriggerEvent,UserClass *,RetType (__cdecl APlayerCameraPawn::* )(const FInputActionValue &))'
-          with
-          [
-              UserClass=APlayerCameraPawn,
-              RetType=void
-          ]
-  D:\Gry\fortnite\unreal\UE_5.1\Engine\Plugins\EnhancedInput\Source\EnhancedInput\Public\EnhancedInputComponent.h(433): note: or       'FEnhancedInputActionEventBinding &UEnhancedInputComponent::BindAction<APlayerCameraPawn,>(const UInputAction *,ETriggerEvent,UserClass *,RetType (__cdecl APlayerCameraPawn::* )(void))'
-          with
-          [
-              UserClass=APlayerCameraPawn,
-              RetType=void
-          ]
-  D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Source\TowerDefenseGame\Private\Player\PlayerCameraPawn.cpp(54): note: 'FEnhancedInputActionEventBinding &UEnhancedInputComponent::BindAction<APlayerCameraPawn,>(const UInputAction *,ETriggerEvent,UserClass *,RetType (__cdecl APlayerCameraPawn::* )(void))': cannot convert argument 4 from 'void (__cdecl APlayerCameraPawn::* )(const int)' to 'RetType (__cdecl APlayerCameraPawn::* )(void)'
-          with
-          [
-              UserClass=APlayerCameraPawn,
-              RetType=void
-          ]
-          and
-          [
-              RetType=void
-          ]
-  D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Source\TowerDefenseGame\Private\Player\PlayerCameraPawn.cpp(54): note: Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
-  D:\Gry\fortnite\unreal\UE_5.1\Engine\Plugins\EnhancedInput\Source\EnhancedInput\Public\EnhancedInputComponent.h(433): note: see declaration of 'UEnhancedInputComponent::BindAction'
-  D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Source\TowerDefenseGame\Private\Player\PlayerCameraPawn.cpp(54): note: while trying to match the argument list '(UInputAction *, ETriggerEvent, APlayerCameraPawn *, void (__cdecl APlayerCameraPawn::* )(const int))'
-D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Source\TowerDefenseGame\Private\Player\PlayerCameraPawn.cpp(67): error C2511: 'void APlayerCameraPawn::ZoomCamera(const FInputActionValue &)': overloaded member function not found in 'APlayerCameraPawn'
-  D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Source\TowerDefenseGame\Public\Player\PlayerCameraPawn.h(15): note: see declaration of 'APlayerCameraPawn'
-  [5/7] Link UnrealEditor-TowerDefenseGame.dll cancelled
-  [6/7] Link UnrealEditor-TowerDefenseGame.lib cancelled
-  [7/7] WriteMetadata TowerDefenseGameEditor.target cancelled
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.MakeFile.Targets(44,5): error MSB3073: The command "D:\Gry\fortnite\unreal\UE_5.1\Engine\Build\BatchFiles\Build.bat TowerDefenseGameEditor Win64 Development -Project="D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\TowerDefenseGame.uproject" -WaitMutex -FromMsBuild" exited with code 6.
+  Building 4 actions with 4 processes...
+  [1/4] Compile PlayerCameraPawn.cpp
+  [2/4] Link UnrealEditor-TowerDefenseGame-0001.lib
+     Creating library D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGame\UnrealEditor-TowerDefenseGame-0001.lib and object D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGame\UnrealEditor-TowerDefenseGame-0001.exp
+  [3/4] Link UnrealEditor-TowerDefenseGame-0001.dll
+     Creating library D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGame\UnrealEditor-TowerDefenseGame-0001.suppressed.lib and object D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGame\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGame\UnrealEditor-TowerDefenseGame-0001.suppressed.exp
+  [4/4] WriteMetadata TowerDefenseGameEditor.target
+  Total time in Parallel executor: 3.49 seconds
+  Total execution time: 4.15 seconds
