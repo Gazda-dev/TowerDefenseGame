@@ -57,6 +57,21 @@
     <ClInclude Include="..\..\Source\TowerDefenseGameV2\TowerDefenseGameV2GameModeBase.h">
       <Filter>Source\TowerDefenseGameV2</Filter>
     </ClInclude>
+    <Filter Include="Source\TowerDefenseGameV2\Enemies">
+      <UniqueIdentifier>{4ADD2923-66C1-3FF0-B8E9-2185CF8CB9C8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TowerDefenseGameV2\Enemies\BasicEnemy.cpp">
+      <Filter>Source\TowerDefenseGameV2\Enemies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TowerDefenseGameV2\Enemies\BasicEnemy.h">
+      <Filter>Source\TowerDefenseGameV2\Enemies</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TowerDefenseGameV2\Enemies\EnemySpawner.cpp">
+      <Filter>Source\TowerDefenseGameV2\Enemies</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TowerDefenseGameV2\Enemies\EnemySpawner.h">
+      <Filter>Source\TowerDefenseGameV2\Enemies</Filter>
+    </ClInclude>
     <Filter Include="Source\TowerDefenseGameV2\Gameplay">
       <UniqueIdentifier>{2BCECF66-D6E0-36ED-9F14-3AD0150B0681}</UniqueIdentifier>
     </Filter>

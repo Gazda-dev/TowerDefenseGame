@@ -33,7 +33,9 @@
             "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\camera\\cameracomponent.h",
             "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\cameracomponent.generated.h",
             "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\source\\towerdefensegamev2\\tower\\towerplacementlocation.h",
-            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\intermediate\\build\\win64\\unrealeditor\\inc\\towerdefensegamev2\\uht\\towerplacementlocation.generated.h"
+            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\intermediate\\build\\win64\\unrealeditor\\inc\\towerdefensegamev2\\uht\\towerplacementlocation.generated.h",
+            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\source\\towerdefensegamev2\\tower\\tdg_basetower.h",
+            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\intermediate\\build\\win64\\unrealeditor\\inc\\towerdefensegamev2\\uht\\tdg_basetower.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
