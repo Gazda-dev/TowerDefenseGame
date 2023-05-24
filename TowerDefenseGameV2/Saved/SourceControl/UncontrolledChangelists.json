@@ -5,17 +5,9 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Player/BP_PlayerCameraPawn.uasset",
-				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Player/Input/IMC_Default.uasset",
-				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Maps/Main1.umap",
-				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Towers/BP_TowerPlacementLocation.uasset",
-				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Towers/BP_TDG_SimpleTower.uasset",
-				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Towers/UBP_SimpleTower_Health.uasset",
-				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Towers/NewWidgetBlueprint.uasset",
-				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Towers/BP_TDG_TowerProjectile.uasset",
 				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Enemies/BP_Enemy1.uasset",
-				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Enemies/BP_EnemySpawner.uasset",
-				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/BP_TowerPlacementLocation.uasset"
+				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Enemies/UBP_Enemy1_Health.uasset",
+				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Maps/Main1.umap"
 			]
 		}
 	]

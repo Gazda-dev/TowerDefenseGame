@@ -15,8 +15,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define TOWERDEFENSEGAMEV2_Enemy1_generated_h
 
 #define FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Enemies_Enemy1_h_15_SPARSE_DATA
-#define FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Enemies_Enemy1_h_15_RPC_WRAPPERS
-#define FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Enemies_Enemy1_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Enemies_Enemy1_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetHealthPercent);
+
+
+#define FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Enemies_Enemy1_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetHealthPercent);
+
+
 #define FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Enemies_Enemy1_h_15_ACCESSORS
 #define FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Enemies_Enemy1_h_15_INCLASS_NO_PURE_DECLS \
 private: \
@@ -38,7 +46,7 @@ public: \
 
 #define FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Enemies_Enemy1_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AEnemy1(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AEnemy1(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AEnemy1) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AEnemy1); \
 	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEnemy1); \
@@ -51,8 +59,6 @@ public: \
 
 
 #define FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Enemies_Enemy1_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AEnemy1() { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AEnemy1(AEnemy1&&); \
