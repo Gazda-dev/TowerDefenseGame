@@ -128,9 +128,9 @@ void EmptyLinkFunctionForGeneratedCodeTDG_SimpleTower() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Tower_TDG_SimpleTower_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ATDG_SimpleTower, ATDG_SimpleTower::StaticClass, TEXT("ATDG_SimpleTower"), &Z_Registration_Info_UClass_ATDG_SimpleTower, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATDG_SimpleTower), 2485262173U) },
+		{ Z_Construct_UClass_ATDG_SimpleTower, ATDG_SimpleTower::StaticClass, TEXT("ATDG_SimpleTower"), &Z_Registration_Info_UClass_ATDG_SimpleTower, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATDG_SimpleTower), 143982443U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Tower_TDG_SimpleTower_h_2862256238(TEXT("/Script/TowerDefenseGameV2"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Tower_TDG_SimpleTower_h_1211965451(TEXT("/Script/TowerDefenseGameV2"),
 		Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Tower_TDG_SimpleTower_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Tower_TDG_SimpleTower_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

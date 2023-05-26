@@ -3,15 +3,15 @@
   Using 'git status' to determine working set for adaptive non-unity build (D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame).
   Building TowerDefenseGameV2Editor...
   Using Visual Studio 2022 14.33.31631 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  [Adaptive Build] Excluded from TowerDefenseGameV2 unity file: BasicEnemy.cpp, EnemySpawner.cpp, TDG_BaseTower.cpp, TDG_SimpleTower.cpp
+  [Adaptive Build] Excluded from TowerDefenseGameV2 unity file: BasicEnemy.cpp, Enemy1.cpp, EnemySpawner.cpp, TDG_BaseTower.cpp, TDG_SimpleTower.cpp, TDG_TowerProjectile.cpp
   Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
     Executing up to 6 processes, one per physical core
   Building 4 actions with 4 processes...
   [1/4] Compile BasicEnemy.cpp
-  [2/4] Link UnrealEditor-TowerDefenseGameV2.lib
-     Creating library D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGameV2\UnrealEditor-TowerDefenseGameV2.lib and object D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGameV2\UnrealEditor-TowerDefenseGameV2.exp
-  [3/4] Link UnrealEditor-TowerDefenseGameV2.dll
-     Creating library D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGameV2\UnrealEditor-TowerDefenseGameV2.suppressed.lib and object D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGameV2\UnrealEditor-TowerDefenseGameV2.suppressed.exp
+  [2/4] Link UnrealEditor-TowerDefenseGameV2-0001.lib
+     Creating library D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGameV2\UnrealEditor-TowerDefenseGameV2-0001.lib and object D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGameV2\UnrealEditor-TowerDefenseGameV2-0001.exp
+  [3/4] Link UnrealEditor-TowerDefenseGameV2-0001.dll
+     Creating library D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGameV2\UnrealEditor-TowerDefenseGameV2-0001.suppressed.lib and object D:\Gry\fortnite\unreal\Unreal Projects\TowerDefenseGame\TowerDefenseGameV2\Intermediate\Build\Win64\UnrealEditor\Development\TowerDefenseGameV2\UnrealEditor-TowerDefenseGameV2-0001.suppressed.exp
   [4/4] WriteMetadata TowerDefenseGameV2Editor.target
-  Total time in Parallel executor: 3.01 seconds
-  Total execution time: 3.59 seconds
+  Total time in Parallel executor: 3.05 seconds
+  Total execution time: 3.70 seconds
