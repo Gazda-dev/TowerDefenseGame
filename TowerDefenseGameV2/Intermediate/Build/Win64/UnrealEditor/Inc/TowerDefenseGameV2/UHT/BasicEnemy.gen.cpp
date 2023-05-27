@@ -31,6 +31,11 @@ void EmptyLinkFunctionForGeneratedCodeBasicEnemy() {}
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_bIsAttacking_MetaData[];
+#endif
+		static void NewProp_bIsAttacking_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_bIsAttacking;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_EnemyMesh_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_EnemyMesh;
@@ -77,6 +82,17 @@ void EmptyLinkFunctionForGeneratedCodeBasicEnemy() {}
 		{ "ModuleRelativePath", "Enemies/BasicEnemy.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABasicEnemy_Statics::NewProp_bIsAttacking_MetaData[] = {
+		{ "Category", "BasicEnemy" },
+		{ "ModuleRelativePath", "Enemies/BasicEnemy.h" },
+	};
+#endif
+	void Z_Construct_UClass_ABasicEnemy_Statics::NewProp_bIsAttacking_SetBit(void* Obj)
+	{
+		((ABasicEnemy*)Obj)->bIsAttacking = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ABasicEnemy_Statics::NewProp_bIsAttacking = { "bIsAttacking", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(ABasicEnemy), &Z_Construct_UClass_ABasicEnemy_Statics::NewProp_bIsAttacking_SetBit, METADATA_PARAMS(Z_Construct_UClass_ABasicEnemy_Statics::NewProp_bIsAttacking_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABasicEnemy_Statics::NewProp_bIsAttacking_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABasicEnemy_Statics::NewProp_EnemyMesh_MetaData[] = {
 		{ "Category", "Enemy #cpp" },
@@ -135,6 +151,7 @@ void EmptyLinkFunctionForGeneratedCodeBasicEnemy() {}
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABasicEnemy_Statics::NewProp_Damage = { "Damage", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ABasicEnemy, Damage), METADATA_PARAMS(Z_Construct_UClass_ABasicEnemy_Statics::NewProp_Damage_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABasicEnemy_Statics::NewProp_Damage_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABasicEnemy_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasicEnemy_Statics::NewProp_bIsAttacking,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasicEnemy_Statics::NewProp_EnemyMesh,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasicEnemy_Statics::NewProp_EnemyHealth,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABasicEnemy_Statics::NewProp_EnemyMaxHealth,
@@ -181,9 +198,9 @@ void EmptyLinkFunctionForGeneratedCodeBasicEnemy() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Enemies_BasicEnemy_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ABasicEnemy, ABasicEnemy::StaticClass, TEXT("ABasicEnemy"), &Z_Registration_Info_UClass_ABasicEnemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABasicEnemy), 2015071581U) },
+		{ Z_Construct_UClass_ABasicEnemy, ABasicEnemy::StaticClass, TEXT("ABasicEnemy"), &Z_Registration_Info_UClass_ABasicEnemy, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABasicEnemy), 2235051516U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Enemies_BasicEnemy_h_44177451(TEXT("/Script/TowerDefenseGameV2"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Enemies_BasicEnemy_h_2968424910(TEXT("/Script/TowerDefenseGameV2"),
 		Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Enemies_BasicEnemy_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Enemies_BasicEnemy_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

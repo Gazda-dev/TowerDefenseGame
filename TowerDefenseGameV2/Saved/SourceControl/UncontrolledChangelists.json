@@ -7,7 +7,19 @@
 			"files": [
 				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Enemies/BP_Enemy1.uasset",
 				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Enemies/UBP_Enemy1_Health.uasset",
-				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Maps/Main1.umap"
+				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Maps/Main1.umap",
+				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Enemies/Mesh/Slow_Run_PhysicsAsset.uasset",
+				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Enemies/Mesh/Slow_Run_Skeleton.uasset",
+				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Enemies/Mesh/Nightshade_normal.uasset",
+				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Enemies/Mesh/Nightshade_specular.uasset",
+				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Enemies/Mesh/Nightshade_glow.uasset",
+				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Enemies/Mesh/Nightshade_diffuse.uasset",
+				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Enemies/Mesh/Nightshade_MAT.uasset",
+				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Enemies/Mesh/Slow_Run.uasset",
+				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Enemies/Anims/Slow_Run_anim.uasset",
+				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Enemies/ABP_Enemy1.uasset",
+				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Enemies/Anims/Zombie_Attack.uasset",
+				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Enemies/Anims/Offensive_Idle.uasset"
 			]
 		}
 	]
