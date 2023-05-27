@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\source\\towerdefensegamev2\\tower\\tdg_maintower.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\intermediate\\build\\win64\\towerdefensegamev2editor\\development\\engine\\sharedpch.engine.shadowerrors.h.pch",
+        "Includes": [
+            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\intermediate\\build\\win64\\unrealeditor\\development\\towerdefensegamev2\\definitions.towerdefensegamev2.h",
+            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\source\\towerdefensegamev2\\tower\\tdg_maintower.h",
+            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\source\\towerdefensegamev2\\tower\\tdg_basetower.h",
+            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\intermediate\\build\\win64\\unrealeditor\\inc\\towerdefensegamev2\\uht\\tdg_basetower.generated.h",
+            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\intermediate\\build\\win64\\unrealeditor\\inc\\towerdefensegamev2\\uht\\tdg_maintower.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

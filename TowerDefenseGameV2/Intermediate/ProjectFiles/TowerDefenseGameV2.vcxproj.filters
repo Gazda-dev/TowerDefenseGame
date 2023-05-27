@@ -108,6 +108,12 @@
     <ClInclude Include="..\..\Source\TowerDefenseGameV2\Tower\TDG_BaseTower.h">
       <Filter>Source\TowerDefenseGameV2\Tower</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\TowerDefenseGameV2\Tower\TDG_MainTower.cpp">
+      <Filter>Source\TowerDefenseGameV2\Tower</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TowerDefenseGameV2\Tower\TDG_MainTower.h">
+      <Filter>Source\TowerDefenseGameV2\Tower</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\TowerDefenseGameV2\Tower\TDG_SimpleTower.cpp">
       <Filter>Source\TowerDefenseGameV2\Tower</Filter>
     </ClCompile>

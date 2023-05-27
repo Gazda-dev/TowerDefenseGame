@@ -23,7 +23,10 @@
 				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Towers/UBP_SimpleTower_Health.uasset",
 				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Towers/BP_TDG_SimpleTower.uasset",
 				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/MSPresets/M_MS_Surface_Material/M_MS_Surface_Material.uasset",
-				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Towers/BP_TowerPlacementLocation.uasset"
+				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Towers/BP_TowerPlacementLocation.uasset",
+				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Player/BP_PlayerCameraPawn.uasset",
+				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Towers/BP_TDG_TowerProjectile.uasset",
+				"D:/Gry/fortnite/unreal/Unreal Projects/TowerDefenseGame/TowerDefenseGameV2/Content/Blueprint/Towers/BP_TDG_MainTower.uasset"
 			]
 		}
 	]
