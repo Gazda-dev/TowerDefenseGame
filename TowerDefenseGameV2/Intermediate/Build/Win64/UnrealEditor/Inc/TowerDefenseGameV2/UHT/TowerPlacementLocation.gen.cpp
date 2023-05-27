@@ -11,6 +11,7 @@ void EmptyLinkFunctionForGeneratedCodeTowerPlacementLocation() {}
 // Cross Module References
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
+	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	TOWERDEFENSEGAMEV2_API UClass* Z_Construct_UClass_ATDG_BaseTower_NoRegister();
 	TOWERDEFENSEGAMEV2_API UClass* Z_Construct_UClass_ATowerPlacementLocation();
@@ -148,6 +149,10 @@ void EmptyLinkFunctionForGeneratedCodeTowerPlacementLocation() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_PlacementMesh_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_PlacementMesh;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_RootCollider_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_RootCollider;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -182,9 +187,18 @@ void EmptyLinkFunctionForGeneratedCodeTowerPlacementLocation() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATowerPlacementLocation_Statics::NewProp_PlacementMesh = { "PlacementMesh", nullptr, (EPropertyFlags)0x0020080000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ATowerPlacementLocation, PlacementMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATowerPlacementLocation_Statics::NewProp_PlacementMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATowerPlacementLocation_Statics::NewProp_PlacementMesh_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATowerPlacementLocation_Statics::NewProp_RootCollider_MetaData[] = {
+		{ "Category", "Tower placement #cpp" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Tower/TowerPlacementLocation.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATowerPlacementLocation_Statics::NewProp_RootCollider = { "RootCollider", nullptr, (EPropertyFlags)0x0020080000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ATowerPlacementLocation, RootCollider), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATowerPlacementLocation_Statics::NewProp_RootCollider_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATowerPlacementLocation_Statics::NewProp_RootCollider_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATowerPlacementLocation_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATowerPlacementLocation_Statics::NewProp_TowerClassToSpawn,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATowerPlacementLocation_Statics::NewProp_PlacementMesh,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATowerPlacementLocation_Statics::NewProp_RootCollider,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATowerPlacementLocation_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATowerPlacementLocation>::IsAbstract,
@@ -223,9 +237,9 @@ void EmptyLinkFunctionForGeneratedCodeTowerPlacementLocation() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Tower_TowerPlacementLocation_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ATowerPlacementLocation, ATowerPlacementLocation::StaticClass, TEXT("ATowerPlacementLocation"), &Z_Registration_Info_UClass_ATowerPlacementLocation, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATowerPlacementLocation), 631688748U) },
+		{ Z_Construct_UClass_ATowerPlacementLocation, ATowerPlacementLocation::StaticClass, TEXT("ATowerPlacementLocation"), &Z_Registration_Info_UClass_ATowerPlacementLocation, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATowerPlacementLocation), 1254051810U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Tower_TowerPlacementLocation_h_652525338(TEXT("/Script/TowerDefenseGameV2"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Tower_TowerPlacementLocation_h_4048982645(TEXT("/Script/TowerDefenseGameV2"),
 		Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Tower_TowerPlacementLocation_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Tower_TowerPlacementLocation_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

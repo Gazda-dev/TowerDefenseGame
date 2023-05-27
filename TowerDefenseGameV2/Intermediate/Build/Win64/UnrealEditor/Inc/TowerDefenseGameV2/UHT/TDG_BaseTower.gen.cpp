@@ -11,6 +11,7 @@ void EmptyLinkFunctionForGeneratedCodeTDG_BaseTower() {}
 // Cross Module References
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
+	ENGINE_API UClass* Z_Construct_UClass_UBoxComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	TOWERDEFENSEGAMEV2_API UClass* Z_Construct_UClass_ATDG_BaseTower();
 	TOWERDEFENSEGAMEV2_API UClass* Z_Construct_UClass_ATDG_BaseTower_NoRegister();
@@ -119,6 +120,10 @@ void EmptyLinkFunctionForGeneratedCodeTDG_BaseTower() {}
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_TowerMesh;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_RootCollider_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_RootCollider;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_ProjectileClass_MetaData[];
 #endif
 		static const UECodeGen_Private::FClassPropertyParams NewProp_ProjectileClass;
@@ -185,6 +190,14 @@ void EmptyLinkFunctionForGeneratedCodeTDG_BaseTower() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATDG_BaseTower_Statics::NewProp_TowerMesh = { "TowerMesh", nullptr, (EPropertyFlags)0x0020080000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ATDG_BaseTower, TowerMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATDG_BaseTower_Statics::NewProp_TowerMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATDG_BaseTower_Statics::NewProp_TowerMesh_MetaData)) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATDG_BaseTower_Statics::NewProp_RootCollider_MetaData[] = {
+		{ "Category", "Tower #cpp" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Tower/TDG_BaseTower.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ATDG_BaseTower_Statics::NewProp_RootCollider = { "RootCollider", nullptr, (EPropertyFlags)0x0020080000080009, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ATDG_BaseTower, RootCollider), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ATDG_BaseTower_Statics::NewProp_RootCollider_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATDG_BaseTower_Statics::NewProp_RootCollider_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATDG_BaseTower_Statics::NewProp_ProjectileClass_MetaData[] = {
 		{ "Category", "Tower #cpp" },
 		{ "ModuleRelativePath", "Tower/TDG_BaseTower.h" },
@@ -211,6 +224,7 @@ void EmptyLinkFunctionForGeneratedCodeTDG_BaseTower() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATDG_BaseTower_Statics::NewProp_TowerHealth,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATDG_BaseTower_Statics::NewProp_MaxTowerHealth,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATDG_BaseTower_Statics::NewProp_TowerMesh,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATDG_BaseTower_Statics::NewProp_RootCollider,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATDG_BaseTower_Statics::NewProp_ProjectileClass,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATDG_BaseTower_Statics::NewProp_MaxUpgradeLevel,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATDG_BaseTower_Statics::NewProp_TowerDamageApplied,
@@ -252,9 +266,9 @@ void EmptyLinkFunctionForGeneratedCodeTDG_BaseTower() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Tower_TDG_BaseTower_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ATDG_BaseTower, ATDG_BaseTower::StaticClass, TEXT("ATDG_BaseTower"), &Z_Registration_Info_UClass_ATDG_BaseTower, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATDG_BaseTower), 3360342485U) },
+		{ Z_Construct_UClass_ATDG_BaseTower, ATDG_BaseTower::StaticClass, TEXT("ATDG_BaseTower"), &Z_Registration_Info_UClass_ATDG_BaseTower, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATDG_BaseTower), 145987220U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Tower_TDG_BaseTower_h_2971545860(TEXT("/Script/TowerDefenseGameV2"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Tower_TDG_BaseTower_h_2931821502(TEXT("/Script/TowerDefenseGameV2"),
 		Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Tower_TDG_BaseTower_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Tower_TDG_BaseTower_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
