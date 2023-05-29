@@ -16,4 +16,7 @@ class TOWERDEFENSEGAMEV2_API ATDG_GameModeBase : public AGameModeBase
 	
 public:
 	ATDG_GameModeBase();
+
+	UFUNCTION(BlueprintPure)
+	int32 GetCurrentWave();
 };
