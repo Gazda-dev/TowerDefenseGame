@@ -17,6 +17,18 @@ class TOWERDEFENSEGAMEV2_API ATDG_GameModeBase : public AGameModeBase
 public:
 	ATDG_GameModeBase();
 
-	UFUNCTION(BlueprintPure)
-	int32 GetCurrentWave();
+	virtual void Tick(float DeltaTime) override;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "EnemySpawner #cpp")
+	int32 CurrentWave;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "EnemySpawner #cpp")
+	int32 EnemiesPerWave;
+
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "EnemySpawner #cpp")
+	int32 AliveEnemyCount;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EnemySpawner #cpp")
+	bool bShouldStartGame = false;
+
 };

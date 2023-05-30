@@ -10,16 +10,15 @@ ATDG_GameModeBase::ATDG_GameModeBase()
 {
 	PlayerControllerClass = ATDG_PlayerController::StaticClass();
 	DefaultPawnClass = APlayerCameraPawn::StaticClass();
+
+	CurrentWave = 1;
+	EnemiesPerWave = 3;
 }
 
-int32 ATDG_GameModeBase::GetCurrentWave()
+void ATDG_GameModeBase::Tick(float DeltaTime)
 {
-	int32 Wave;
-	AEnemySpawner* Spawner = Cast<AEnemySpawner>(AEnemySpawner::StaticClass());
-	if (Spawner)
-	{
+	Super::Tick(DeltaTime);
 
-		Spawner->CurrentWave = Wave;
-	}
-	return Wave;
+
 }
+

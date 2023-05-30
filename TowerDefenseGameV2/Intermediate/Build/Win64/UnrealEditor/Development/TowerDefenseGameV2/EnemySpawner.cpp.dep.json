@@ -27,7 +27,13 @@
             "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\dialoguetypes.generated.h",
             "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
             "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystaticstypes.generated.h",
-            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h"
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h",
+            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\source\\towerdefensegamev2\\gameplay\\tdg_gamemodebase.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "d:\\gry\\fortnite\\unreal\\ue_5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\gry\\fortnite\\unreal\\unreal projects\\towerdefensegame\\towerdefensegamev2\\intermediate\\build\\win64\\unrealeditor\\inc\\towerdefensegamev2\\uht\\tdg_gamemodebase.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

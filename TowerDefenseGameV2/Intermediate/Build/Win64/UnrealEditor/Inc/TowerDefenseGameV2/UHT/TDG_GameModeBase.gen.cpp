@@ -28,6 +28,24 @@ void EmptyLinkFunctionForGeneratedCodeTDG_GameModeBase() {}
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_CurrentWave_MetaData[];
+#endif
+		static const UECodeGen_Private::FIntPropertyParams NewProp_CurrentWave;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_EnemiesPerWave_MetaData[];
+#endif
+		static const UECodeGen_Private::FIntPropertyParams NewProp_EnemiesPerWave;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_AliveEnemyCount_MetaData[];
+#endif
+		static const UECodeGen_Private::FIntPropertyParams NewProp_AliveEnemyCount;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_bShouldStartGame_MetaData[];
+#endif
+		static void NewProp_bShouldStartGame_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_bShouldStartGame;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
 	};
@@ -44,6 +62,44 @@ void EmptyLinkFunctionForGeneratedCodeTDG_GameModeBase() {}
 		{ "ShowCategories", "Input|MouseInput Input|TouchInput" },
 	};
 #endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_CurrentWave_MetaData[] = {
+		{ "Category", "EnemySpawner #cpp" },
+		{ "ModuleRelativePath", "Gameplay/TDG_GameModeBase.h" },
+	};
+#endif
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_CurrentWave = { "CurrentWave", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ATDG_GameModeBase, CurrentWave), METADATA_PARAMS(Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_CurrentWave_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_CurrentWave_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_EnemiesPerWave_MetaData[] = {
+		{ "Category", "EnemySpawner #cpp" },
+		{ "ModuleRelativePath", "Gameplay/TDG_GameModeBase.h" },
+	};
+#endif
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_EnemiesPerWave = { "EnemiesPerWave", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ATDG_GameModeBase, EnemiesPerWave), METADATA_PARAMS(Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_EnemiesPerWave_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_EnemiesPerWave_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_AliveEnemyCount_MetaData[] = {
+		{ "Category", "EnemySpawner #cpp" },
+		{ "ModuleRelativePath", "Gameplay/TDG_GameModeBase.h" },
+	};
+#endif
+	const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_AliveEnemyCount = { "AliveEnemyCount", nullptr, (EPropertyFlags)0x0010000000000015, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ATDG_GameModeBase, AliveEnemyCount), METADATA_PARAMS(Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_AliveEnemyCount_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_AliveEnemyCount_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_bShouldStartGame_MetaData[] = {
+		{ "Category", "EnemySpawner #cpp" },
+		{ "ModuleRelativePath", "Gameplay/TDG_GameModeBase.h" },
+	};
+#endif
+	void Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_bShouldStartGame_SetBit(void* Obj)
+	{
+		((ATDG_GameModeBase*)Obj)->bShouldStartGame = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_bShouldStartGame = { "bShouldStartGame", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, sizeof(bool), sizeof(ATDG_GameModeBase), &Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_bShouldStartGame_SetBit, METADATA_PARAMS(Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_bShouldStartGame_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_bShouldStartGame_MetaData)) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATDG_GameModeBase_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_CurrentWave,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_EnemiesPerWave,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_AliveEnemyCount,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATDG_GameModeBase_Statics::NewProp_bShouldStartGame,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ATDG_GameModeBase_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ATDG_GameModeBase>::IsAbstract,
 	};
@@ -53,11 +109,11 @@ void EmptyLinkFunctionForGeneratedCodeTDG_GameModeBase() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_ATDG_GameModeBase_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		UE_ARRAY_COUNT(Z_Construct_UClass_ATDG_GameModeBase_Statics::PropPointers),
 		0,
 		0x009002ACu,
 		METADATA_PARAMS(Z_Construct_UClass_ATDG_GameModeBase_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ATDG_GameModeBase_Statics::Class_MetaDataParams))
@@ -81,9 +137,9 @@ void EmptyLinkFunctionForGeneratedCodeTDG_GameModeBase() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Gameplay_TDG_GameModeBase_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ATDG_GameModeBase, ATDG_GameModeBase::StaticClass, TEXT("ATDG_GameModeBase"), &Z_Registration_Info_UClass_ATDG_GameModeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATDG_GameModeBase), 1975936152U) },
+		{ Z_Construct_UClass_ATDG_GameModeBase, ATDG_GameModeBase::StaticClass, TEXT("ATDG_GameModeBase"), &Z_Registration_Info_UClass_ATDG_GameModeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATDG_GameModeBase), 187953464U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Gameplay_TDG_GameModeBase_h_3588091436(TEXT("/Script/TowerDefenseGameV2"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Gameplay_TDG_GameModeBase_h_1614709518(TEXT("/Script/TowerDefenseGameV2"),
 		Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Gameplay_TDG_GameModeBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_Projects_TowerDefenseGame_TowerDefenseGameV2_Source_TowerDefenseGameV2_Gameplay_TDG_GameModeBase_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
