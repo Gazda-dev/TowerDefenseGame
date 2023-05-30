@@ -13,6 +13,7 @@ ATDG_GameModeBase::ATDG_GameModeBase()
 
 	CurrentWave = 1;
 	EnemiesPerWave = 3;
+	bShouldStartGame = false;
 }
 
 void ATDG_GameModeBase::Tick(float DeltaTime)

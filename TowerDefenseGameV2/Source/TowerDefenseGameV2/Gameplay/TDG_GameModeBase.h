@@ -29,6 +29,6 @@ public:
 	int32 AliveEnemyCount;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "EnemySpawner #cpp")
-	bool bShouldStartGame = false;
+	bool bShouldStartGame;
 
 };
